@@ -31,7 +31,8 @@ Installing and using the WSL was _really_ easy and 99% of our Node scripts worke
 - **The WSL is slow.** Yarn/npm installations take forever.
 - **Be prepared to use Windows Insiders.** (Because of fixed issues like [this one](https://github.com/Microsoft/WSL/issues/2898).) It would be _so_ good, if updates to the WSL wouldn't be tied to OS updates.
 - **Be prepared to use a Linux VM.** (Because of not yet fixed issues like [this one](https://github.com/Microsoft/WSL/issues/2780).) I always hoped I could just use WSL and be productive from day 1, but sadly this is _not yet_ the case. Interestingly Windows offers a native way to install a VM without additional software. In some weeks it should be possible to get a [full featured Ubuntu VM in _three clicks_](https://blogs.technet.microsoft.com/virtualization/2018/02/28/sneak-peek-taking-a-spin-with-enhanced-linux-vms/). Currently it needs some more clicks, but works. Performance could be better and I would like to resize the window for the VM.
-- `nvm` has a known problem with [slow startup](https://github.com/creationix/nvm/issues/1277) times, but it was unbearable on the WSL. I use [`n`](https://github.com/mklement0/n-install) now. 
+- `nvm` has a known problem with [slow startup](https://github.com/creationix/nvm/issues/1277) times, but it was unbearable on the WSL. I use [`n`](https://github.com/mklement0/n-install) now.
+- It would be nice if Windows apps (like VS Code and SourceTree) could use WSL apps (like Git) without problems, so I don't need to maintain two Git installations. (At least VS Code has an open issue to try to support the WSL Git as well.)
 
 ## Apps
 
@@ -41,10 +42,21 @@ I don't need a lot of apps, but sadly I still have some troubles with them.
 - Hyper.js is _really_ slow and buggy for me. So much that it is not useable for me. The VS Code terminal however works _really_ great. There is an open issue to make it a [standalone application](https://github.com/Microsoft/vscode/issues/34442). That would be so nice.
 - I always used Monosnap for screenshots and short screen recordings. It has a Windows version as well, but this one is _very_ slow on high resolution screens. (But the developers are quite nice.)
 
+Other apps worked really well without problems (Enpass, all browsers, Telegram, WhatsApp...).
+
 ## Surface Book 2
 
-...
+**A Surface product without a pen is a half-hearted attempt** in my opinion. Sadly the pen isn't included in the Surface Book 2 and it was sold out, when we bought the Book. Because of some unfortunate events I still don't have a pen. If I'd be responsible for the Surface hardware I'd make sure to include a pen to show my product as a complete solution.
+
+- Nice display, keyboard and touchpad.
+- Nearly silent during the whole day.
+- Battery life (or stand-by behaviour?) could be better. IMHO the MacBook was more responsive after waking up and had lost less energy.
+- In some rare moments I hear coil whine. (After a full reboot...?)
+- HDMI would be nice.
 
 ## Windows culture
 
-...
+The _new_ Windows culture is a main selling point for the Windows platform.
+
+- You can get in touch with Windows developers _really_ easily. I had great success contacting and getting help from Windows developers via Twitter or GitHub issues. (E.g. you can report WSL bugs on [a dedicated GitHub repository](https://github.com/Microsoft/WSL).) The developers and project managers were responsive, helpful _and_ friendly.
+- Windows even has a dedicated app to get in touch with developers called Feedback-Hub. I like the idea, but the app could have a better UX and I got mroe answers via Twitter or GitHub. The Feedback-Hub is more a one-way communication channel than a dialogue. (How nice would it be to have an app called "Dialogue" as the Feedback-Hub.)
