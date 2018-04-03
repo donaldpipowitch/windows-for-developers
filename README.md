@@ -53,6 +53,7 @@ Other apps worked really well without problems (Enpass, all browsers, Telegram, 
 - Battery life (or stand-by behaviour?) could be better. IMHO the MacBook was more responsive after waking up and had lost less energy.
 - In some rare moments I hear coil whine. (After a full reboot...?)
 - HDMI would be nice.
+- Opening the book with 180° would be nice.
 
 ## Windows culture
 
